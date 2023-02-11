@@ -2,4 +2,5 @@ import logging
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
-    # Run program here
+    logging.getLogger("__main__.py").info("Project has run")
+    #Add your logic here
